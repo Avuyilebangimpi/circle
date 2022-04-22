@@ -1,0 +1,45 @@
+package za.ac.wsu.s221694919;
+
+public class Circle {
+    private double radius;
+    private double x;
+    private double y;
+
+    public void setRadius(double r){
+        this.radius = r;
+    }
+
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    public void setY(double y) {
+        this.y = y;
+    }
+
+    public double getRadius() {
+        return this.radius;
+    
+    }
+    public double getX() {
+        return this.x;
+    }
+
+    public double getY() {
+        return this.y;
+    }
+
+    public double calculateArea(){
+        return 3.14159 * Math.pow(this.radius, 2);
+    }
+
+    public double caluclateCircumfarence() {
+        return 2 * 3.14159 * this.radius;
+    }
+
+    public double calculateDiameter() {
+        return 2 * this.radius;
+    }
+}
+    }
+}
